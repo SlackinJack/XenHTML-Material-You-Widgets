@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.classButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+}
+
+.classButtonGlyph {
+    width: 20px;
+    height: 20px;
+}
+
+#divBackground, #imgArtwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+}
+
+#divBackground {
+    z-index: -1;
+}
+
+#divPlayButton {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-border-radius: 35%;
+}
+
+#divSkipButton {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-border-radius: 50%;
+}
+
+#imgArtwork {
+    z-index: 1;
+}
+
+#svgPause {
+    display: none;
+}
+
+#svgPlay {
+    margin-left: 3px;
+}
+
+#svgNoMusic {
+    z-index: 2;
+}

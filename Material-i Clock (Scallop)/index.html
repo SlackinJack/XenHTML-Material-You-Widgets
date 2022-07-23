@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body onload="onLoad()">
+        <div class="classClockContainer" onclick="onClockClick()">
+            <div class="classClock">
+                <svg id="svgBackground" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+                    <path d="M597.07,285.29l-24.22-58.4-8.23-62.68a38.35,38.35,0,0,0-14.71-25.48l-50.17-38.47L461.28,50.09a38.46,38.46,0,0,0-25.49-14.71l-62.68-8.23L314.71,2.93a38.36,38.36,0,0,0-29.42,0l-58.4,24.22L164.2,35.38a38.39,38.39,0,0,0-25.47,14.71l-38.47,50.17L50.09,138.73a38.35,38.35,0,0,0-14.71,25.48l-8.24,62.68L2.93,285.29a38.45,38.45,0,0,0,0,29.42l24.21,58.4,8.24,62.69a38.42,38.42,0,0,0,14.71,25.48l50.17,38.46,38.47,50.17a38.35,38.35,0,0,0,25.47,14.71l62.69,8.24,58.4,24.21a38.39,38.39,0,0,0,29.42,0l58.4-24.21,62.68-8.24a38.37,38.37,0,0,0,25.48-14.71l38.47-50.17,50.17-38.47a38.37,38.37,0,0,0,14.71-25.47l8.23-62.69,24.22-58.4A38.45,38.45,0,0,0,597.07,285.29Z" transform="translate(0 0)"/>
+                </svg>
+
+                <div class="classHand" id="divHour"></div>
+                <div class="classHand" id="divMinute"></div>
+                <div id="divDate">
+                    <span id="span1"></span><span id="span2"></span><span id="span3"></span> <span id="span4"></span><span id="span5"></span>
+                </div>
+                <div id="divSecond"></div>
+            </div>
+        </div>
+    </body>
+</html>

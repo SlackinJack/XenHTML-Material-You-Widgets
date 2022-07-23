@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+    <body onload="onLoad()">
+        <div id="divWeatherPill" onclick="onWeatherClick()">
+            <svg id="svgPill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+                <rect width="600" height="600" rx="100" />
+            </svg>
+            <img id="imgWeatherIcon" xui-src="'xui://resource/default/weather/%s.svg' | inject weather.now.condition.code" />
+            <p id="pTempSubheading">{weather.now.temperature.current}&deg;</p>
+            <p id="pCity">{weather.metadata.address.city}</p>
+            <p id="pTempHighLow">{weather.now.temperature.maximum}&deg;&nbsp;&nbsp;&nbsp;{weather.now.temperature.minimum}&deg;</p>
+        </div>
+    </body>
+</html>

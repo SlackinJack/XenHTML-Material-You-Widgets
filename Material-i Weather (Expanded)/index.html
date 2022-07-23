@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+    <body onload="onLoad()">
+        <div id="divWeatherPill" onclick="onWeatherClick()">
+            <svg id="svgPill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 600">
+                <path d="M710,0H100A100,100,0,0,0,0,100V500A100,100,0,0,0,100,600H710A100,100,0,0,0,810,500V100A100,100,0,0,0,710,0Z" />
+            </svg>
+            <img id="imgWeatherIcon" xui-src="'xui://resource/default/weather/%s.svg' | inject weather.now.condition.code" />
+            <p id="pTempSubheading">{weather.now.temperature.current}&deg;</p>
+            <p id="pCity">{weather.metadata.address.city}</p>
+            <p id="pCondition">{weather.now.condition.description}</p>
+            <p id="pTempHighLow">{weather.now.temperature.maximum}&deg;&nbsp;&nbsp;&nbsp;{weather.now.temperature.minimum}&deg;</p>
+
+            <div id="divForecasts">
+                <div class="classForecast" id="div0Hour">
+                    <p class="classForecastLabel" id="p0HourTemp"></p>
+                    <img class="classForecastIcon" id="imgWeatherIcon0Hour" />
+                    <p class="classForecastSublabel" id="p0HourTime"></p>
+                </div>
+                <div class="classForecast" id="div1Hour">
+                    <p class="classForecastLabel" id="p1HourTemp"></p>
+                    <img class="classForecastIcon" id="imgWeatherIcon1Hour" />
+                    <p class="classForecastSublabel" id="p1HourTime"></p>
+                </div>
+                <div class="classForecast" id="div2Hour">
+                    <p class="classForecastLabel" id="p2HourTemp"></p>
+                    <img class="classForecastIcon" id="imgWeatherIcon2Hour" />
+                    <p class="classForecastSublabel" id="p2HourTime"></p>
+                </div>
+                </div>
+            </div>
+    </body>
+</html>

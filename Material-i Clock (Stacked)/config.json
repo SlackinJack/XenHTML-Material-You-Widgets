@@ -1,0 +1,73 @@
+{
+    "name": "Material-You Clock (Stacked)",
+    "author": "Slackin' Jack#0001",
+    "size": {
+        "max-width": "141.95px",
+        "width": "100%",
+        "height": "200px"
+    },
+    "options": [
+        {
+            "type": "title",
+            "text": "Appearance"
+        },
+        {
+            "type": "text",
+            "default": "#AAD0FF",
+            "key": "stringBackgroundColour",
+            "text": "Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#409CFF",
+            "key": "stringTextColour",
+            "text": "Text Colour"
+        },
+{
+            "type": "text",
+            "default": "#303030",
+            "key": "stringDarkBackgroundColour",
+            "text": "Dark Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#606060",
+            "key": "stringDarkTextColour",
+            "text": "Dark Text Colour"
+        },
+        {
+            "type": "comment",
+            "text": "Colour (in hex) or names of HTML-Supported colours"
+        },
+        {
+            "type": "title",
+            "text": "Formatting"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "shouldUse24HourClock",
+            "text": "Use 24-Hour Time"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldAddLeadingZeroToHours",
+            "text": "Add A Leading Zero To Hours"
+        },
+        {
+            "type": "title",
+            "text": "App ID Override"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.mobiletimer",
+            "key": "stringOverrideClockAppID",
+            "text": "Clock"
+        },
+        {
+            "type": "comment",
+            "text": "Change to your app bundle ID of choice. Best left on default value."
+        }
+    ]
+}

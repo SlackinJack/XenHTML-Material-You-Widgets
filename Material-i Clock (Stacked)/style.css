@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: black;
+    font-family: -apple-system,system-ui;
+}
+
+svg {
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+p {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 0;
+}
+
+.classTime {
+    display: inline-block;
+    position: relative;
+    top: 98px;
+    margin: 0 -2px;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+#divClockPill {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#pDate {
+    top: 23px;
+    margin-bottom: -75px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}

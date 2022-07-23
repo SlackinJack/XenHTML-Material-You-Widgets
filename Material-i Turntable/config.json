@@ -1,0 +1,97 @@
+{
+    "name": "Material-i Turntable",
+    "author": "Slackin' Jack#0001",
+    "size": {
+        "max-width": "200px",
+        "width": "100%",
+        "height": "200px"
+    },
+    "options": [
+        {
+            "type": "title",
+            "text": "Light Appearance"
+        },
+        {
+            "type": "text",
+            "default": "#AAD0FF",
+            "key": "stringBackgroundColour",
+            "text": "Player Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#AAD0FF",
+            "key": "stringPlayButtonColour",
+            "text": "Play/Pause Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#AE90E0",
+            "key": "stringSkipButtonColour",
+            "text": "Skip Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#6080B0",
+            "key": "stringGlyphColour",
+            "text": "Play/Pause Glyph Colour"
+        },
+        {
+            "type": "text",
+            "default": "#432277",
+            "key": "stringSkipGlyphColour",
+            "text": "Skip Glyph Colour"
+        },
+        {
+            "type": "title",
+            "text": "Dark Appearance"
+        },
+        {
+            "type": "text",
+            "default": "#303030",
+            "key": "stringDarkBackgroundColour",
+            "text": "Dark Player Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#303030",
+            "key": "stringDarkPlayButtonColour",
+            "text": "Dark Play/Pause Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#009BE0",
+            "key": "stringDarkSkipButtonColour",
+            "text": "Dark Skip Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#707070",
+            "key": "stringDarkGlyphColour",
+            "text": "Dark Play/Pause Glyph Colour"
+        },
+        {
+            "type": "text",
+            "default": "#005980",
+            "key": "stringDarkSkipGlyphColour",
+            "text": "Dark Skip Glyph Colour"
+        },
+        {
+            "type": "comment",
+            "text": "Colour (in hex) or names of HTML-Supported colours"
+        },
+        {
+            "type": "title",
+            "text": "App IDs"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.Music",
+            "key": "stringFavouriteMediaApplication",
+            "text": "Default Music Application"
+        },
+        {
+            "type": "comment",
+            "text": "Set application to open when no media is playing"
+        }
+    ]
+}

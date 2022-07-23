@@ -1,0 +1,154 @@
+:root {
+    --hours-starting-degree: 0;
+    --mins-starting-degree: 0;
+    --secs-starting-degree: 0;
+}
+
+body {
+    font-family: -apple-system, system-ui;
+}
+
+.classClockContainer {
+    margin: -8px;
+}
+
+.classClock {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.classHand {
+    position: absolute;
+    top: 46.4%;
+    right: 0;
+    left: 0;
+    width: 7.25%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+#divHour {
+    height: 28%;
+    transform: rotate(calc(var(--hours-starting-degree) * 1deg));
+    transform-origin: 50% 12.857%;
+    animation: 43200s hour-rotate linear infinite;
+}
+
+
+
+#divMinute {
+    height: 35%;
+    transform: rotate(calc(var(--mins-starting-degree) * 1deg));
+    transform-origin: 50% 10%;
+    animation: 3600s minute-rotate linear infinite;
+}
+
+
+
+
+#divSecond {
+    position: absolute;
+    top: 45.5%;
+    right: 0;
+    left: 0;
+    width: 9%;
+    height: 9%;
+    margin: auto;
+    transform: rotate(calc(var(--secs-starting-degree) * 1deg)) translateY(420%);
+    animation: 60s second-rotate linear infinite;
+    border-radius: 100%;
+}
+
+
+
+#divDate {
+    font-size: 19.2px;
+    font-weight: 500;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    height: 19.2px;
+    margin: auto;
+    transform: translateY(-50%);
+    animation: 60s date-rotate linear infinite;
+    text-align: center;
+}
+
+    #divDate > span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: inline-block;
+        margin: auto;
+    }
+
+    #divDate > #span1 {
+        transform: rotate(22deg) translateY(-400%);
+    }
+
+    #divDate > #span2 {
+        transform: rotate(30.5deg) translateY(-400%);
+    }
+
+    #divDate > #span3 {
+        transform: rotate(40.5deg) translateY(-400%);
+    }
+
+    #divDate > #span4 {
+        transform: rotate(53deg) translateY(-400%);
+    }
+
+    #divDate > #span5 {
+        transform: rotate(61.5deg) translateY(-400%);
+    }
+
+
+/**********************/
+/***** Animations *****/
+/**********************/
+
+@keyframes hour-rotate {
+    0% {
+        transform: rotate(calc(var(--hours-starting-degree) * 1deg));
+    }
+
+    100% {
+        transform: rotate(calc(var(--hours-starting-degree) * 1deg + 360deg));
+    }
+}
+
+@keyframes minute-rotate {
+    0% {
+        transform: rotate(calc(var(--mins-starting-degree) * 1deg));
+    }
+
+    100% {
+        transform: rotate(calc(var(--mins-starting-degree) * 1deg + 360deg));
+    }
+}
+
+@keyframes second-rotate {
+    0% {
+        transform: rotate(calc(var(--secs-starting-degree) * 1deg)) translateY(420%);
+    }
+
+    100% {
+        transform: rotate(calc(var(--secs-starting-degree) * 1deg + 360deg)) translateY(420%);
+    }
+}
+
+
+@keyframes date-rotate {
+    0% {
+        transform: translateY(-50%) rotate(calc(var(--secs-starting-degree) * 1deg + 320deg));
+    }
+
+    100% {
+        transform: translateY(-50%) rotate(calc(var(--secs-starting-degree) * 1deg + 680deg));
+    }
+}

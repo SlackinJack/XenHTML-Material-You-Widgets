@@ -1,0 +1,103 @@
+{
+    "name": "Material-You Clock (Scallop)",
+    "author": "Slackin' Jack#0001",
+    "size": {
+        "max-width": "200px",
+        "width": "100%",
+        "height": "200px"
+    },
+    "options": [
+	{
+            "type": "comment",
+            "text": "Before using this widget, please set 'XenHTML/Advanced/Battery Management Mode' to 'Low'. Otherwise, you will experience bugs."
+        },
+		{
+            "type": "title",
+            "text": "General"
+        },
+		{
+            "type": "switch",
+            "default": "true",
+            "key": "shouldShowDate",
+            "text": "Show Date"
+        },
+        {
+            "type": "title",
+            "text": "Light Appearance"
+        },
+        {
+            "type": "text",
+            "default": "#AAD0FF",
+            "key": "stringBackgroundColour",
+            "text": "Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#6080B0",
+            "key": "stringHourColour",
+            "text": "Hour-Hand & Date Colour"
+        },
+        {
+            "type": "text",
+            "default": "#409CFF",
+            "key": "stringMinuteColour",
+            "text": "Minute-Hand Colour"
+        },
+        {
+            "type": "text",
+            "default": "#AE90E0",
+            "key": "stringSecondColour",
+            "text": "Seconds-Hand Colour"
+        },
+	{
+            "type": "comment",
+            "text": "Colour (in hex) or names of HTML-Supported colours"
+        },
+        {
+            "type": "title",
+            "text": "Dark Appearance"
+        },
+        {
+            "type": "text",
+            "default": "#303030",
+            "key": "stringDarkBackgroundColour",
+            "text": "Background Colour"
+        },
+        {
+            "type": "text",
+            "default": "#707070",
+            "key": "stringDarkHourColour",
+            "text": "Hour-Hand & Date Colour"
+        },
+        {
+            "type": "text",
+            "default": "#C4C4C4",
+            "key": "stringDarkMinuteColour",
+            "text": "Minute-Hand Colour"
+        },
+        {
+            "type": "text",
+            "default": "#009BE0",
+            "key": "stringDarkSecondColour",
+            "text": "Seconds-Hand Colour"
+        },
+        {
+            "type": "comment",
+            "text": "Colour (in hex) or names of HTML-Supported colours"
+        },
+        {
+            "type": "title",
+            "text": "App ID Override"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.mobiletimer",
+            "key": "stringOverrideClockAppID",
+            "text": "Clock"
+        },
+        {
+            "type": "comment",
+            "text": "Change to your app bundle ID of choice. Best left on default value."
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    color: black;
+    font-family: -apple-system,system-ui;
+}
+
+svg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+img {
+    display: block;
+    position: relative;
+    width: 38px;
+    height: 38px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+p {
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+#pTempSubheading {
+    text-align: left;
+    font-size: 60px;
+    top: -25px;
+    left: 18px;
+    font-weight: 600;
+}
+
+#pCity {
+    text-align: right;
+    font-size: 18px;
+    top: -212px;
+    left: -20px;
+    font-weight: 400;
+}
+
+#pTempHighLow {
+    text-align: left;
+    font-size: 18px;
+    top: -125px;
+    left: 18px;
+    font-weight: 300;
+}

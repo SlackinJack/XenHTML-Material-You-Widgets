@@ -1,0 +1,140 @@
+{
+    "name": "At a Gaze 6",
+    "author": "Slackin' Jack#0001",
+    "size": {
+        "max-width": "390px",
+        "width": "100%",
+        "height": "100px"
+    },
+    "options": [
+        {
+            "type": "title",
+            "text": "Appearance"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "shouldUseDarkText",
+            "text": "Use Dark Text"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "shouldUseAdaptiveColouredText",
+            "text": "Change Text Colour Automatically"
+        },
+        {
+            "type": "comment",
+            "text": "Automatically use dark text for light mode, and light text for dark mode. Overrides 'Use Dark Text' setting."
+        },
+        {
+            "type": "title",
+            "text": "General"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowWeather",
+            "text": "Show Weather"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowReminders",
+            "text": "Show Reminders"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowEvents",
+            "text": "Show Calendar Events"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowNowPlaying",
+            "text": "Show Now Playing Info"
+        },
+        {
+            "type": "comment",
+            "text": "Shows track info when playing media and when there are no upcoming events."
+        },
+        {
+            "type": "title",
+            "text": "Calender and Reminders"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowOverdueReminders",
+            "text": "Show Overdue Reminders"
+        },
+
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowAllDayEvents",
+            "text": "Show All Day Events"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldShowTimeUntilEvent",
+            "text": "Show Time Remaining Until Events"
+        },
+        {
+            "type": "number",
+            "default": "6",
+            "key": "intTimeRange",
+            "text": "Show Events Within ___ Hours"
+        },
+        {
+            "type": "title",
+            "text": "Formatting"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldAbbreviateMonth",
+            "text": "Abbreviate Months"
+        },
+        {
+            "type": "switch",
+            "default": true,
+            "key": "shouldAddLeadingZeroToHours",
+            "text": "Add A Leading Zero To Hours"
+        },
+        {
+            "type": "switch",
+            "default": false,
+            "key": "shouldUse24HourClock",
+            "text": "Use 24-Hour Time For Events"
+        },
+        {
+            "type": "title",
+            "text": "App ID Overrides"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.mobilecal",
+            "key": "stringOverrideCalendarAppID",
+            "text": "Calendar"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.reminders",
+            "key": "stringOverrideRemindersAppID",
+            "text": "Reminders"
+        },
+        {
+            "type": "text",
+            "default": "com.apple.weather",
+            "key": "stringOverrideWeatherAppID",
+            "text": "Weather"
+        },
+        {
+            "type": "comment",
+            "text": "Change to your app bundle ID of choice. Best left on default values."
+        }
+    ]
+}
