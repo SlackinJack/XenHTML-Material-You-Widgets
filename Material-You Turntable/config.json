@@ -92,6 +92,22 @@
         {
             "type": "comment",
             "text": "Set application to open when no media is playing"
+        },
+        {
+            "type": "comment",
+            "text": "Common bundle IDs (case sensitive):"
+        },
+        {
+            "type": "comment",
+            "text": "Apple Music | com.apple.Music"
+        },
+        {
+            "type": "comment",
+            "text": "Spotify | com.spotify.client"
+        },
+        {
+            "type": "comment",
+            "text": "Youtube Music | com.google.ios.youtubemusic"
         }
     ]
 }
