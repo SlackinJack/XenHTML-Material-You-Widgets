@@ -64,7 +64,7 @@ function updateColours(mode) {
             setFillColourForElement('svgSkip', stringDarkSkipGlyphColour);
             setFillColourForElement('svgPlay', stringDarkGlyphColour);
             setFillColourForElement('svgPause', stringDarkGlyphColour);
-            setFillColourForElement('svgNoMusic', stringDarkGlyphColour);
+            setFillColourForElement('svgNoMusic', stringDarkPlayButtonColour);
             break;
         default:
             setBackgroundColourForElement('divSkipButton', stringSkipButtonColour);
@@ -73,7 +73,7 @@ function updateColours(mode) {
             setFillColourForElement('svgSkip', stringSkipGlyphColour);
             setFillColourForElement('svgPlay', stringGlyphColour);
             setFillColourForElement('svgPause', stringGlyphColour);
-            setFillColourForElement('svgNoMusic', stringGlyphColour);
+            setFillColourForElement('svgNoMusic', stringPlayButtonColour);
             break;
     }
 }
